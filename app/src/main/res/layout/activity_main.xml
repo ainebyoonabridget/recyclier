@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvdarius"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Bridget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tvName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Jackline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvName" />
+
+    <EditText
+        android:id="@+id/tvName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Maurice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName2" />
+
+    <EditText
+        android:id="@+id/tvName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Innocent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName3" />
+
+    <EditText
+        android:id="@+id/tvdarius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Darius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName4" />
+
+    <EditText
+        android:id="@+id/tnname8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Juliet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvdarius" />
+
+    <EditText
+        android:id="@+id/tnname8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="800dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sylivia"
+        app:layout_constraintBottom_toTopOf="@+id/tvName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tnname8"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <EditText
+        android:id="@+id/tvname10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pricillah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tnname8" />
+
+    <EditText
+        android:id="@+id/tvName11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Charity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvname10" />
+
+    <EditText
+        android:id="@+id/tvName12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Gabbie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName11" />
+
+    <EditText
+        android:id="@+id/edNumber"
+        android:layout_width="45dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toEndOf="@+id/tvName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="53dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toEndOf="@+id/tvName2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toEndOf="@+id/tvName3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="67dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="184dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toEndOf="@+id/tvName4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber7"
+        android:layout_width="62dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="18"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber8"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="19"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber9"
+        android:layout_width="54dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="20"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber10"
+        android:layout_width="58dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="21"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber11"
+        android:layout_width="69dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="22"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber12"
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="23"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
